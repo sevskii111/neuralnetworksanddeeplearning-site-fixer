@@ -5,5 +5,5 @@
 // @match       *://neuralnetworksanddeeplearning.com/*
 // ==/UserScript==
 document.querySelector('.section').style.margin = 'auto';
-document.getElementById('toc').style.right = '10px';
-document.getElementById('toc').style.left = 'auto';
+document.querySelector('.section').style.position = 'relative';
+
